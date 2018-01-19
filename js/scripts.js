@@ -1,3 +1,9 @@
+function zeroCheck(number) {
+  if (number === "0") {
+  newNumber = "Beep!";
+  }
+}
+
 
 
 $(document).ready(function() {
@@ -6,7 +12,9 @@ $(document).ready(function() {
 
     var number = $("#number").val();
 
-    $("#output").text(number)
+    zeroCheck(number);
+
+    $("#output").text(newNumber)
     $(".result").show();
 
   });
