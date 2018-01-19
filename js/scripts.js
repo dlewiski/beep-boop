@@ -1,7 +1,7 @@
 function numberCheck(number) {
   if (((parseInt(number) % 3) === 0) && (parseInt(number) !== 1) && (parseInt(number) !== 0)) {
     newNumber = "I'm sorry, Dave. I'm afraid you can't do that";
-  } else if(true) {
+  } else {
   for (i = 0; i < number.length; i++){
     if (number.charAt(i) === "1") {
       newNumber = "Boop!";
@@ -10,7 +10,10 @@ function numberCheck(number) {
       newNumber = "Beep!";
       }
     }
-  } else if(true) {
+  }
+};
+
+function integerList(number) {
   listOfNumbers = [];
   for (digit = 0; digit <= (parseInt(number)); digit++) {
 
@@ -18,10 +21,6 @@ function numberCheck(number) {
       newNumber = listOfNumbers;
     }
   }
-  };
-
-
-
 
 
 $(document).ready(function() {
