@@ -24,6 +24,30 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
   * **_Example Input: 0_**
   * **_Example Output: ["Beep!"]_**
 
+* _Program replaces 1 with "Boop!"_
+  * **_Example Input: 1_**
+  * **_Example Output: ["Boop!"]_**
+
+* _Program replaces 3 with "I'm sorry, Dave. I'm afraid I can't do that."_
+  * **_Example Input: 3_**
+  * **_Example Output: ["I'm sorry, Dave. I'm afraid I can't do that."]_**
+
+* _Program replaces any number containing a 0 with "Beep!"_
+  * **_Example Input: 208_**
+  * **_Example Output: ["Beep!"]_**
+
+* _Program replaces any number containing a 1 with "Boop!"_
+  * **_Example Input: 413_**
+  * **_Example Output: ["Boop!"]_**
+
+* _Program replaces any number divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that."_
+  * **_Example Input: 225_**
+  * **_Example Output: ["I'm sorry, Dave. I'm afraid I can't do that."]_**
+
+* _Program replaces all other numbers with integers from 0 to the inputed number_
+  * **_Example Input: 23_**
+  * **_Example Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 ,14 1 5, 1 6, 17, 18, 19 20, 21, 22, 23]_**
+
 ## Known Bugs
 
 _{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
