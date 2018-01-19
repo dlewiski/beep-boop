@@ -21,8 +21,8 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 ## Specifications
 
 * _Program replaces 0 with "Beep!"_
-  * _Example Input: 0_
-  * _Example Output: ["Beep!"]_
+  * **_Example Input: 0_**
+  * **_Example Output: ["Beep!"]_**
 
 ## Known Bugs
 
