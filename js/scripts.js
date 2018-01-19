@@ -1,26 +1,32 @@
 function numberCheck(number) {
+  
   if (((parseInt(number) % 3) === 0) && (parseInt(number) !== 1) && (parseInt(number) !== 0)) {
     newNumber = "I'm sorry, Dave. I'm afraid you can't do that";
-  } else {
+
+  } else if ((parseInt(number) % 3) !== 0) {
   for (i = 0; i < number.length; i++){
     if (number.charAt(i) === "1") {
       newNumber = "Boop!";
       i +=100;
+
     } if (number.charAt(i) === "0") {
       newNumber = "Beep!";
-      }
+
     }
   }
-};
+} else if ((newNumber !== "Beep!") || (newNumber !== "Boop!")) {
 
-function integerList(number) {
-  listOfNumbers = [];
-  for (digit = 0; digit <= (parseInt(number)); digit++) {
+        listOfNumbers = [];
+        for (digit = 0; digit <= (parseInt(number)); digit++) {
 
-      listOfNumbers[digit] = digit;
-      newNumber = listOfNumbers;
+            listOfNumbers[digit] = digit;
+            newNumber = listOfNumbers;
     }
   }
+}
+
+
+
 
 
 $(document).ready(function() {
@@ -29,6 +35,7 @@ $(document).ready(function() {
 
     var number = $("#number").val();
     numberCheck(number);
+
 
     $("#output").text(newNumber)
     $(".result").show();
