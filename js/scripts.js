@@ -1,5 +1,5 @@
 function numberCheck(number) {
-  
+
   if (((parseInt(number) % 3) === 0) && (parseInt(number) !== 1) && (parseInt(number) !== 0)) {
     newNumber = "I'm sorry, Dave. I'm afraid you can't do that";
 
@@ -13,15 +13,15 @@ function numberCheck(number) {
       newNumber = "Beep!";
 
     }
-  }
-} else if ((newNumber !== "Beep!") || (newNumber !== "Boop!")) {
 
-        listOfNumbers = [];
-        for (digit = 0; digit <= (parseInt(number)); digit++) {
-
-            listOfNumbers[digit] = digit;
-            newNumber = listOfNumbers;
     }
+    listOfNumbers = [];
+    for (digit = 0; digit <= (parseInt(number)); digit++) {
+
+        listOfNumbers[digit] = digit;
+        newNumber = listOfNumbers;
+
+}
   }
 }
 
