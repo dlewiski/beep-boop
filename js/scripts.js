@@ -3,13 +3,11 @@ function numberCheck(number) {
   for (i = 0; i < number.length; i++){
     newNumber = "";
     if (number.charAt(i) === "1") {
-      oneNumber = "Boop!";
-      newNumber = oneNumber;
+      newNumber = "Boop!"
       i +=100;
 
     } if (number.charAt(i) === "0") {
-      zeroNumber = "Beep!";
-      newNumber = zeroNumber;
+      newNumber = "Beep!";
 
     }
 
@@ -19,17 +17,9 @@ function numberCheck(number) {
   if (((parseInt(number) % 3) === 0) && (parseInt(number) !== 1) && (parseInt(number) !== 0)) {
     newNumber = "I'm sorry, Dave. I'm afraid you can't do that";
 
-} else if (newNumber !== "Boop!") {
-
-    listOfNumbers = [];
-    for (digit = 0; digit <= (parseInt(number)); digit++) {
-
-        listOfNumbers[digit] = digit;
-        newNumber = listOfNumbers;
-
-}
-} else if (newNumber !== "Beep!") {
-
+} if (((parseInt(number) % 3) !== 0) && ((newNumber !== "Boop!") || (newNumber !== "Beep!")))
+console.log(newNumber);{
+console.log(newNumber);
     listOfNumbers = [];
     for (digit = 0; digit <= (parseInt(number)); digit++) {
 
