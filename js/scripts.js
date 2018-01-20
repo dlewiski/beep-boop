@@ -1,5 +1,6 @@
 function numberCheck(number) {
 
+if (((parseInt(number) % 3) === 0)) {
   for (i = 0; i < number.length; i++){
     newNumber = "";
     if (number.charAt(i) === "1") {
@@ -13,11 +14,11 @@ function numberCheck(number) {
 
     }
     console.log(newNumber);
-
+}
   if (((parseInt(number) % 3) === 0) && (parseInt(number) !== 1) && (parseInt(number) !== 0)) {
     newNumber = "I'm sorry, Dave. I'm afraid you can't do that";
 
-} if (((parseInt(number) % 3) !== 0) && ((newNumber !== "Boop!") || (newNumber !== "Beep!")))
+} if (newNumber !== "Beep!")
 console.log(newNumber);{
 console.log(newNumber);
     listOfNumbers = [];
